@@ -1,0 +1,375 @@
+.About {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 13rem;
+}
+.top-stuff {
+  position: relative;
+  top: 30rem;
+}
+.about-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+}
+.about-left img {
+  width: 500px;
+  height: 300px;
+}
+.about-left img:hover {
+  transform: translateY(-0.5rem);
+  filter: drop-shadow(3px 3px 6em #04979faa);
+}
+.about-left h3 {
+  position: relative;
+  top: -12rem;
+  width: 70%;
+  left: 4rem;
+}
+.about-left h2 {
+  position: relative;
+  color: white;
+  top: -8rem;
+  left: 10rem;
+  width: 70%;
+  font-size: 20px;
+}
+.about-left p {
+  position: relative;
+  top: 1rem;
+  right: 8rem;
+  font-size: 1.2em;
+  text-align: left;
+}
+.bottom-stuff {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  top: 2rem;
+}
+.bottom-stuff h1 {
+  position: relative;
+  left: 15rem;
+}
+.bottom-stuff .avatar img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.slide-show {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  left: 6rem;
+  gap: 30px 30px;
+  top: 10rem;
+}
+
+.slider {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #174b94;
+  border: 2px white solid;
+  padding: 4px 10px;
+  width: 300px;
+  height: 300px;
+  padding: 10px 8px;
+}
+.slider:hover {
+  transform: translateY(-0.5rem);
+  transition: 1s ease-in-out;
+  filter: drop-shadow(3px 3px 6em #04979faa);
+}
+.slider .pick img {
+  border-radius: 60%;
+  position: relative;
+  margin-top: 25px;
+  width: 60px;
+  height: 60px;
+}
+.slider .name {
+  font-size: 18px;
+  color: white;
+}
+@media (max-width: 320px) {
+  .About h1 {
+    position: relative;
+    right: 0rem;
+    top: -3rem;
+  }
+  .top-stuff {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-left {
+    position: relative;
+    top: -2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-left h2 {
+    position: relative;
+    left: 1rem;
+    top: -6rem;
+  }
+  .about-left img {
+    position: relative;
+    top: -7rem;
+    width: 310px;
+    height: 310px;
+  }
+  .about-left h3 {
+    position: relative;
+    top: -6rem;
+    left: 0rem;
+  }
+  .about-left p {
+    position: relative;
+    top: -7rem;
+    left: 0.5rem;
+    font-size: 16px;
+  }
+  .bottom-stuff {
+    position: relative;
+    top: 8rem;
+  }
+  .bottom-stuff h1 {
+    font-size: 24px;
+    font-weight: 800;
+    position: relative;
+    top: 2rem;
+    left: 0;
+  }
+  .slide-show {
+    position: absolute;
+    left: 1rem;
+  }
+  .slider {
+    position: relative;
+    width: 250px;
+    height: 330px;
+  }
+}
+@media (min-width: 375px) {
+  .About h1 {
+    position: relative;
+    right: 0rem;
+    top: -3rem;
+  }
+  .top-stuff {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-left {
+    z-index: 1;
+    position: relative;
+    top: -2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-left h2 {
+    position: relative;
+    left: 1rem;
+    top: -6rem;
+  }
+  .about-left img {
+    position: relative;
+    top: -7rem;
+    width: 310px;
+    height: 310px;
+  }
+  .about-left h3 {
+    position: relative;
+    top: -6rem;
+    left: 0rem;
+  }
+  .about-left p {
+    position: relative;
+    top: -7rem;
+    left: 0.5rem;
+    font-size: 16px;
+  }
+  .bottom-stuff {
+    position: relative;
+    top: 8rem;
+  }
+  .bottom-stuff h1 {
+    font-size: 24px;
+    font-weight: 800;
+    position: relative;
+    top: 2rem;
+    left: 0;
+  }
+  .slide-show {
+    position: absolute;
+    left: 1rem;
+  }
+  .slider {
+    position: relative;
+    width: 250px;
+    height: 330px;
+  }
+}
+@media (min-width: 425px) {
+  .About h1 {
+    position: relative;
+    right: 0rem;
+    top: -3rem;
+  }
+  .top-stuff {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-left {
+    z-index: 1;
+    position: relative;
+    top: -2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-left h2 {
+    position: relative;
+    left: 1rem;
+    top: -6rem;
+  }
+  .about-left img {
+    position: relative;
+    top: -7rem;
+    width: 350px;
+    height: 350px;
+  }
+  .about-left h3 {
+    position: relative;
+    top: -6rem;
+    left: 0rem;
+  }
+  .about-left p {
+    position: relative;
+    top: -7rem;
+    left: 0.5rem;
+    font-size: 16px;
+  }
+  .bottom-stuff {
+    position: relative;
+    top: 8rem;
+  }
+  .bottom-stuff h1 {
+    font-size: 24px;
+    font-weight: 800;
+    position: relative;
+    top: 2rem;
+    left: 0;
+  }
+  .slide-show {
+    position: absolute;
+    left: 1rem;
+  }
+  .slider {
+    position: relative;
+    width: 300px;
+    height: 330px;
+  }
+}
+@media (min-width: 768px) {
+  .about-left {
+    display: flex;
+  }
+  .about-left img {
+    width: 450px;
+    position: relative;
+    top: 3rem;
+  }
+  .about-left p {
+    position: relative;
+    top: 2rem;
+    font-size: 20px;
+    width: 650px;
+  }
+  .about-left h3 {
+    position: relative;
+    top: 3rem;
+  }
+  .about-left h2 {
+    position: relative;
+    top: 2rem;
+    left: 0rem;
+  }
+  .bottom-stuff {
+    position: relative;
+    top: 17rem;
+  }
+  .bottom-stuff h1 {
+    position: relative;
+    left: 8rem;
+    top: 2rem;
+    font-size: 30px;
+  }
+  .slide-show {
+    position: absolute;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .about-left {
+    position: absolute;
+    left: -28rem;
+    top: -12rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .about-left img {
+    width: 450px;
+    height: 300px;
+    position: relative;
+    top: 3rem;
+    left: 5rem;
+  }
+  .about-left p {
+    position: absolute;
+    top: 15rem;
+    left: 35rem;
+    font-size: 18px;
+    width: 80%;
+  }
+  .about-left h3 {
+    position: relative;
+    top: -7rem;
+    left: 7rem;
+  }
+  .about-left h2 {
+    position: relative;
+    top: -3rem;
+    left: 10rem;
+  }
+  .bottom-stuff {
+    position: relative;
+    top: 14rem;
+    right: 20rem;
+  }
+  .bottom-stuff h1 {
+    position: relative;
+    left: 20rem;
+    top: 4rem;
+    width: 450px;
+    font-size: 30px;
+  }
+  .slide-show {
+    position: absolute;
+    left: 2rem;
+    display: grid;
+    gap: 2rem 3rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

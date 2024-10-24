@@ -1,0 +1,291 @@
+.pack-grid {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 6rem;
+  top: 48rem;
+  flex-wrap: wrap;
+}
+.tour {
+  position: absolute;
+  left: 15rem;
+  top: 15rem;
+}
+.tour h1 {
+  font-size: 4rem;
+}
+.tour h1:nth-child(2) {
+  position: relative;
+  top: 15rem;
+}
+.tour text {
+  position: relative;
+  top: 13rem;
+}
+
+section h3 {
+  color: white;
+  font-size: 28px;
+  position: relative;
+  text-decoration: underline;
+}
+.Bronze {
+  position: relative;
+  top: -1rem;
+  right: 3rem;
+}
+.Bronze-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem 5rem;
+}
+.Silver {
+  position: relative;
+  right: 3rem;
+}
+.Silver-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem 5rem;
+}
+.Gold {
+  position: relative;
+  right: 3rem;
+}
+.Gold-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem 5rem;
+}
+@media (max-width: 320px) {
+  .tour {
+    position: absolute;
+    left: 0;
+  }
+  .tour h1 {
+    position: relative;
+    top: -5rem;
+  }
+  .tour h1:nth-child(2) {
+    position: relative;
+    top: 3rem;
+  }
+  .tour text {
+    position: relative;
+    top: 2rem;
+    font-weight: 400;
+  }
+  .pack-grid {
+    width: 50%;
+  }
+  .Bronze-box {
+    position: relative;
+    left: 2rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem 5rem;
+  }
+  .Bronze h3 {
+    position: relative;
+    right: -2rem;
+  }
+  .Silver-box {
+    position: relative;
+    right: -2rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem 5rem;
+  }
+  .Silver h3 {
+    position: relative;
+    right: -2rem;
+  }
+  .Gold-box {
+    position: relative;
+    right: -2rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem 5rem;
+  }
+  .Gold h3 {
+    position: relative;
+    right: -2rem;
+  }
+}
+@media (min-width: 375px) {
+  .tour {
+    position: absolute;
+    left: 0;
+  }
+  .tour h1 {
+    position: relative;
+    top: -5rem;
+  }
+  .tour h1:nth-child(2) {
+    position: relative;
+    top: 3rem;
+  }
+  .tour text {
+    position: relative;
+    top: 2rem;
+    font-weight: 400;
+  }
+  .Bronze-box {
+    position: relative;
+    right: 0rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem 5rem;
+  }
+  .Bronze h3 {
+    position: relative;
+    right: 0rem;
+  }
+  .Silver-box {
+    position: relative;
+    right: 2rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem 5rem;
+  }
+  .Silver h3 {
+    position: relative;
+    right: 0rem;
+  }
+  .Gold-box {
+    position: relative;
+    right: 2rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem 5rem;
+  }
+  .Gold h3 {
+    position: relative;
+    right: 0rem;
+  }
+}
+@media (min-width: 768px) {
+  .tour {
+    position: absolute;
+    left: 0;
+  }
+  .tour h1 {
+    position: relative;
+    top: -5rem;
+  }
+  .tour h1:nth-child(2) {
+    position: relative;
+    top: 7rem;
+  }
+  .tour text {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 5rem;
+    font-weight: 400;
+  }
+  .pack-grid {
+    position: absolute;
+    left: 0;
+  }
+  .Bronze-box {
+    position: relative;
+    right: -3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem 2rem;
+  }
+  .Bronze h3 {
+    position: relative;
+    right: 0rem;
+  }
+  .Silver-box {
+    position: relative;
+    right: -3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 3rem;
+  }
+  .Silver h3 {
+    position: relative;
+    right: 0rem;
+  }
+  .Gold-box {
+    position: relative;
+    right: -3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 3rem;
+  }
+  .Gold h3 {
+    position: relative;
+    right: 0rem;
+  }
+}
+@media (min-width: 1024px) {
+  .tour {
+    position: absolute;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    left: 8rem;
+  }
+  .tour h1 {
+    position: relative;
+    top: -4rem;
+    right: 3rem;
+  }
+  .tour h1:nth-child(2) {
+    position: relative;
+    top: 18rem;
+    left: 1rem;
+  }
+  .tour text {
+    display: flex;
+    right: 0rem;
+    flex-wrap: wrap;
+    position: relative;
+    top: 18rem;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .pack-grid {
+    position: absolute;
+    left: 0;
+    top: 55rem;
+  }
+  .Bronze-box {
+    position: relative;
+    right: -3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem 3rem;
+  }
+  .Bronze h3 {
+    position: relative;
+    right: 0rem;
+  }
+  .Silver-box {
+    position: relative;
+    right: -3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem 3rem;
+  }
+  .Silver h3 {
+    position: relative;
+    right: 0rem;
+  }
+  .Gold-box {
+    position: relative;
+    right: -3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem 3rem;
+  }
+  .Gold h3 {
+    position: relative;
+    right: 0rem;
+  }
+}

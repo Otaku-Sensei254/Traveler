@@ -1,0 +1,208 @@
+.tap-me-menu {
+  display: none;
+  border-radius: 20%;
+  padding: 2px 3px;
+  position: relative;
+  left: 32rem;
+}
+.menu-class {
+  position: absolute;
+  left: 3rem;
+  display: flex;
+  background: rgba(24, 28, 30, 0.811);
+  border: 2px white solid;
+  padding: 4rem 5rem;
+  z-index: 1;
+}
+.menu-class ul {
+  display: flex;
+  position: relative;
+  right: 25rem;
+  list-style: none;
+}
+.menu-class ul li {
+  list-style: none;
+  display: block;
+  gap: 3px 5px;
+}
+.menu-class ul li a {
+  position: absolute;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  line-height: 4rem;
+  justify-content: center;
+}
+@media (max-width: 320px) {
+  .tap-me-menu {
+    display: block;
+    position: relative;
+    left: 6rem;
+    top: 0rem;
+  }
+  .menu-class {
+    animation: Slide 3s ease-in-out;
+    height: 60vh;
+    display: flex;
+    position: absolute;
+    left: -11rem;
+    top: 3.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-class ul {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .menu-class ul li {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 23rem;
+    text-align: center;
+    width: 100%;
+  }
+  .menu-class ul li a {
+    right: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+}
+@media (min-width: 375px) {
+  .tap-me-menu {
+    display: block;
+    position: relative;
+    left: 9rem;
+    top: 0rem;
+  }
+  .menu-class {
+    animation: 3s Slide ease-in-out;
+    display: flex;
+    position: absolute;
+    left: -11rem;
+    top: 3.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-class ul {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .menu-class ul li {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 23rem;
+    text-align: center;
+    width: 100%;
+  }
+  .menu-class ul li a {
+    right: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+}
+@media (min-width: 425px) {
+  .tap-me-menu {
+    display: block;
+    position: relative;
+    left: 12rem;
+    top: 0rem;
+    padding: 0px 4px;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-class {
+    display: flex;
+    position: absolute;
+    left: -11rem;
+    top: 3.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-class ul {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .menu-class ul li {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 23rem;
+    text-align: center;
+    width: 100%;
+  }
+  .menu-class ul li a {
+    right: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+}
+@media (min-width: 768px) {
+  .tap-me-menu {
+    display: block;
+    position: relative;
+    left: 33rem;
+    top: 0rem;
+    padding: 0px 4px;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-class {
+    height: 70vh;
+    animation: Slide 3s ease-in-out;
+    display: flex;
+    position: absolute;
+    left: -11rem;
+    top: 3.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-class ul {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .menu-class ul li {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 23rem;
+    text-align: center;
+    width: 100%;
+  }
+  .menu-class ul li a {
+    right: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+}
+@media (min-width: 1024px) {
+  .tap-me-menu {
+    display: none;
+  }
+}
+
+@keyframes Slide {
+  0% {
+    left: -30rem;
+  }
+  100% {
+    left: -11rem;
+  }
+}

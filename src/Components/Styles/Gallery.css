@@ -1,0 +1,130 @@
+.photo-grid {
+  position: absolute;
+  display: grid;
+  left: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  flex-wrap: wrap;
+  top: 40rem;
+}
+
+.photo-grid .picha {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3px 10px;
+}
+.photo-grid .picha img {
+  width: 400px;
+  height: 300px;
+}
+.photo-grid .picha img:hover {
+  transform: translateY(-1rem);
+  filter: drop-shadow(3px 3px 6em #04979faa);
+  transition: 1s linear;
+}
+.h1G {
+  position: absolute;
+  top: 13rem;
+  left: 33rem;
+}
+.h2G {
+  position: relative;
+  top: 19rem;
+}
+@media (max-width: 320px) {
+  .h1G {
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+  }
+  .photo-grid {
+    position: absolute;
+    display: grid;
+    left: 0.5rem;
+    grid-template-columns: repeat(1, 1fr);
+    flex-wrap: wrap;
+    top: 40rem;
+  }
+  .photo-grid .picha img {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media (min-width: 375px) {
+  .h1G {
+    position: absolute;
+    top: 10rem;
+    left: 6rem;
+  }
+  .photo-grid {
+    position: absolute;
+    display: grid;
+    left: 1.4rem;
+    grid-template-columns: repeat(1, 1fr);
+    flex-wrap: wrap;
+    top: 40rem;
+  }
+  .photo-grid .picha img {
+    width: 380px;
+    height: 280px;
+  }
+}
+@media (min-width: 425px) {
+  .h1G {
+    position: absolute;
+    top: 10rem;
+    left: 8rem;
+  }
+  .photo-grid {
+    position: absolute;
+    display: grid;
+    left: 1.4rem;
+    grid-template-columns: repeat(1, 1fr);
+    flex-wrap: wrap;
+    top: 40rem;
+  }
+  .photo-grid .picha img {
+    width: 380px;
+    height: 280px;
+  }
+}
+@media (min-width: 768px) {
+  .h1G {
+    position: absolute;
+    top: 10rem;
+    left: 20rem;
+  }
+  .photo-grid {
+    position: absolute;
+    display: grid;
+    left: 1.2rem;
+    grid-template-columns: repeat(2, 1fr);
+    flex-wrap: wrap;
+    top: 40rem;
+  }
+  .photo-grid .picha img {
+    width: 350px;
+    height: 250px;
+  }
+}
+@media (min-width: 1024px) {
+  .h1G {
+    position: absolute;
+    top: 10rem;
+    left: 33rem;
+  }
+  .photo-grid {
+    position: absolute;
+    display: grid;
+    left: 1.2rem;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+    top: 45rem;
+    gap: 2rem 1px;
+  }
+  .photo-grid .picha img {
+    width: 400px;
+    height: 300px;
+  }
+}

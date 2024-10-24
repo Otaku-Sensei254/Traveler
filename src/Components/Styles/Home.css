@@ -1,0 +1,388 @@
+.home-box {
+  max-height: 100vh;
+  display: flex;
+}
+.home-stuff {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 2rem;
+  top: 5rem;
+}
+.home-stuff h1 {
+  position: relative;
+}
+.home-stuff text {
+  background-color: rgba(
+    103,
+    100,
+    100,
+    0.212
+  ); /* Semi-transparent background */
+  backdrop-filter: blur(5px);
+  position: relative;
+  right: 32rem;
+  top: 8rem;
+  font-size: 32px;
+  font-family: fantasy;
+  font-weight: 300;
+  width: 50%;
+  font-style: normal;
+}
+.bk {
+  position: relative;
+  display: flex;
+  padding: 9px 10px;
+  align-items: center;
+  justify-content: center;
+  top: 0rem;
+  right: 0rem;
+  border-radius: 30px;
+  border: 2px solid white;
+  background: transparent;
+  columns: white;
+  gap: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.bk:hover {
+  border: 2px solid aqua;
+  background: aqua;
+  color: black;
+}
+.ex {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  padding: 9px 10px;
+  align-items: center;
+  justify-content: center;
+  top: 0rem;
+  right: 0rem;
+  border-radius: 30px;
+  border: 2px solid white;
+  background: transparent;
+  columns: white;
+  gap: 10px;
+  font-size: 25px;
+}
+.ex:hover {
+  border: 2px solid greenyellow;
+  background: greenyellow;
+  color: black;
+}
+.buttons {
+  position: absolute;
+  top: 8rem;
+  left: 35rem;
+}
+.buttons a {
+  position: relative;
+}
+
+.left-img {
+  position: relative;
+  left: 22rem;
+  border-radius: 50%;
+  width: 380px;
+  top: 5rem;
+  height: 360px;
+}
+.left-img:hover {
+  transform: translateY(-2.5rem);
+  transition: 2s ease-in-out;
+  filter: drop-shadow(0 0 2em #04979faa);
+}
+/*------mobile screems------*/
+@media (max-width: 320px) {
+  .home-box {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+  }
+  .home-stuff {
+    position: absolute;
+    top: 9rem;
+  }
+  .home-stuff h1 {
+    display: flex;
+    font-size: 30px;
+    top: -4rem;
+    right: 1rem;
+  }
+  .home-stuff text {
+    position: relative;
+    right: 1.5rem;
+    top: 19rem;
+    font-size: 25px;
+    width: 300px;
+  }
+  .buttons {
+    position: absolute;
+    left: 4rem;
+    display: flex;
+    gap: 1rem 2rem;
+    top: 45rem;
+
+    flex-direction: column;
+  }
+  .buttons a {
+    position: relative;
+    color: red;
+    display: flex;
+    width: 190px;
+    top: 0rem;
+    right: 0rem;
+  }
+  .ex {
+    display: flex;
+    width: 200px;
+    font-size: 22px;
+  }
+  .left {
+    position: absolute;
+    left: 2rem;
+    top: 12rem;
+  }
+  .left-img {
+    position: relative;
+    left: 0rem;
+    width: 230px;
+    top: 0rem;
+    height: 230px;
+  }
+}
+@media (min-width: 375px) {
+  .home-box {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+  }
+  .home-stuff {
+    position: absolute;
+    top: 9rem;
+  }
+  .home-stuff h1 {
+    display: flex;
+    font-size: 30px;
+    top: -4rem;
+    right: 0rem;
+  }
+  .home-stuff text {
+    position: relative;
+    right: 0rem;
+    top: 19rem;
+    font-size: 25px;
+    width: 300px;
+  }
+  .buttons {
+    position: absolute;
+    left: 5rem;
+    display: flex;
+    gap: 1rem 2rem;
+    top: 45rem;
+
+    flex-direction: column;
+  }
+  .buttons a {
+    position: relative;
+    color: red;
+    display: flex;
+    width: 190px;
+    top: 0rem;
+    right: 0rem;
+  }
+  .ex {
+    display: flex;
+    width: 200px;
+    font-size: 22px;
+  }
+  .left {
+    position: absolute;
+    left: 2rem;
+    top: 12rem;
+  }
+  .left-img {
+    position: relative;
+    left: 2rem;
+    width: 230px;
+    top: 0rem;
+    height: 230px;
+  }
+}
+@media (min-width: 425px) {
+  .home-box {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+  }
+  .home-stuff {
+    position: absolute;
+    top: 9rem;
+  }
+  .home-stuff h1 {
+    display: flex;
+    font-size: 32px;
+    top: -6rem;
+    right: -2rem;
+  }
+  .home-stuff text {
+    position: relative;
+    right: 0rem;
+    top: 19rem;
+    font-size: 25px;
+    width: 350px;
+  }
+  .buttons {
+    position: absolute;
+    left: 7rem;
+    display: flex;
+    top: 44rem;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  .book {
+    position: relative;
+    font-size: 1.2rem;
+    top: 13rem;
+    right: 20.5rem;
+    width: 150px;
+  }
+  .explore {
+    position: relative;
+    font-size: 1.2rem;
+    top: 15rem;
+    right: 22rem;
+    width: 200px;
+  }
+  .left {
+    position: absolute;
+    left: 2rem;
+    top: 9rem;
+  }
+  .left-img {
+    position: relative;
+    left: 1rem;
+    width: 300px;
+    top: 1rem;
+    height: 300px;
+  }
+}
+@media (min-width: 768px) {
+  .home-box {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+  }
+  .home-stuff {
+    position: absolute;
+    top: 9rem;
+  }
+  .home-stuff h1 {
+    display: flex;
+    font-size: 32px;
+    top: -4rem;
+    right: 0rem;
+  }
+  .home-stuff text {
+    position: relative;
+    right: 19rem;
+    top: 3rem;
+    font-size: 25px;
+    width: 350px;
+  }
+  .buttons {
+    position: absolute;
+    left: 2.8rem;
+    display: flex;
+    top: 23rem;
+    flex-direction: row;
+  }
+
+  .book {
+    position: relative;
+    font-size: 1.2rem;
+    top: 13rem;
+    right: 25rem;
+    width: 150px;
+  }
+  .explore {
+    position: relative;
+    font-size: 1.2rem;
+    top: 13rem;
+    right: 22rem;
+    width: 200px;
+  }
+  .left {
+    position: absolute;
+    left: 26rem;
+    top: 2rem;
+  }
+  .left-img {
+    position: relative;
+    left: 5rem;
+    width: 230px;
+    top: 5rem;
+    height: 230px;
+  }
+}
+@media (min-width: 1024px) {
+  .home-box {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+  }
+  .home-stuff {
+    position: absolute;
+    top: 9rem;
+  }
+  .home-stuff h1 {
+    display: flex;
+    font-size: 40px;
+    top: -2rem;
+    right: -6rem;
+  }
+  .home-stuff text {
+    position: relative;
+    padding: 10px 14px;
+    right: 21rem;
+    top: 4rem;
+    font-size: 30px;
+    width: 450px;
+  }
+  .buttons {
+    position: absolute;
+    left: 8rem;
+    display: flex;
+    top: 30rem;
+    flex-direction: row;
+  }
+
+  .book {
+    position: relative;
+    font-size: 1.2rem;
+    top: 13rem;
+    right: 25rem;
+    width: 150px;
+  }
+  .explore {
+    position: relative;
+    font-size: 1.2rem;
+    top: 13rem;
+    right: 22rem;
+    width: 200px;
+  }
+  .left {
+    position: absolute;
+    left: 42rem;
+    top: 6rem;
+  }
+  .left-img {
+    position: relative;
+    left: 10rem;
+    width: 350px;
+    top: 2rem;
+    height: 350px;
+  }
+}

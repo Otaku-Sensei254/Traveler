@@ -1,0 +1,164 @@
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { Box, Flex, Avatar, Text } from "@chakra-ui/react";
+import {
+  ChevronLeftIcon,
+  ChevronRightIcon
+} from "@chakra-ui/icons";
+
+function Testimonials() {
+  let sliderRef = useRef(null);
+
+  const next = () => {
+    sliderRef.slickNext();
+  };
+
+  const previous = () => {
+    sliderRef.slickPrev();
+  };
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: true,
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+    ],
+  };
+
+  const testimonials = [
+    {
+      name: "John Doe",
+      photo:
+        "https://via.placeholder.com/150",
+      field: "Property Manager",
+      testimonial:
+        "Our experience with the rental management system has been exceptional. It streamlined our operations and improved tenant satisfaction significantly. The intuitive interface and automated processes have saved us time and effort, allowing us to focus more on enhancing property value.",
+      linkedin: "https://www.linkedin.com/in/johndoe",
+      instagram: "https://www.instagram.com/johndoe",
+      twitter: "https://twitter.com/johndoe",
+    },
+    {
+      name: "Jane Smith",
+      photo: "https://via.placeholder.com/150",
+      field: "Property Owner",
+      testimonial:
+        "Using this rental management system has been a game-changer for us. It provides comprehensive insights into property performance and helps us make informed decisions. The support team is responsive and helpful, ensuring smooth operations throughout.",
+      linkedin: "https://www.linkedin.com/in/janesmith",
+      instagram: "https://www.instagram.com/janesmith",
+      twitter: "https://twitter.com/janesmith",
+    },
+    {
+      name: "Michael Brown",
+      photo: "https://via.placeholder.com/150",
+      field: "Tenant",
+      testimonial:
+        "As a tenant, I appreciate the transparency and convenience offered by this rental management system. Paying rent and submitting maintenance requests is hassle-free, and communication with the property management team is efficient. It has truly elevated my renting experience.",
+      linkedin: "https://www.linkedin.com/in/michaelbrown",
+      instagram: "https://www.instagram.com/michaelbrown",
+      twitter: "https://twitter.com/michaelbrown",
+    },
+  ];
+
+  return (
+    <div className="slider-container relative">
+      <Flex justify={"space-between"} pos={"relative"}>
+        <ChevronLeftIcon
+          fontSize={30}
+          onClick={() => next()}
+          pos={"absolute"}
+          top={{ md: "110", lg: "150" }}
+          left={-10}
+          color={"#101f3c"}
+          bg={"#fa510f"}
+          borderRadius={"50%"}
+          display={{ base: "none", md: "block" }}
+          cursor={"pointer"}
+        />
+        <ChevronRightIcon
+          fontSize={30}
+          onClick={() => previous()}
+          pos={"absolute"}
+          top={{ md: "110", lg: "150" }}
+          right={-10}
+          color={"#101f3c"}
+          bg={"#fa510f"}
+          borderRadius={"50%"}
+          display={{ base: "none", md: "block" }}
+          cursor={"pointer"}
+        />
+      </Flex>
+      <Slider ref={(slider) => (sliderRef = slider)} {...settings}>
+        {testimonials.map((t, index) => (
+          <Flex
+            key={index}
+            borderRadius={"md"}
+            bg={"#101F3C"}
+            p={4}
+            mt={2}
+            mb={2}
+            color={"#fff"}
+            w={"100%"}
+            flexDir={{ base: "column", md: "row" }}
+          >
+            <Flex flexDir={"column"}>
+              <Avatar
+                alignSelf={"center"}
+                size={{ base: "xl", md: "2xl" }}
+                name={t.name}
+                src={t.photo}
+                mb={4}
+              />
+              <Box ml={4}>
+                <Text textAlign={"center"}> "{t.testimonial}"</Text>
+                <Text
+                  mt={2}
+                  color={"#FA510F"}
+                  fontStyle={"italic"}
+                  fontWeight={"bold"}
+                  textAlign={"center"}
+                >
+                  {t.field} - {t.name}
+                </Text>
+              </Box>
+            </Flex>
+          </Flex>
+        ))}
+      </Slider>
+    </div>
+  );
+}
+
+export default Testimonials;

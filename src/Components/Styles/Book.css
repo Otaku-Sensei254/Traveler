@@ -1,0 +1,581 @@
+.contact-container {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  top: 5rem;
+  left: 19rem;
+  overflow: hidden;
+}
+form {
+  width: 100%;
+  display: flex;
+  top: 0rem;
+  right: 0rem;
+  flex-wrap: wrap;
+  position: relative;
+  background-color: rgba(
+    103,
+    100,
+    100,
+    0.212
+  ); /* Semi-transparent background */
+  backdrop-filter: blur(5px);
+  border: 2px solid white;
+}
+form .inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  top: 4rem;
+  left: 4rem;
+}
+form .inputs input {
+  display: flex;
+  width: 60%;
+  padding: 4px 20px;
+  color: black;
+  background: white;
+  outline: none;
+  border: 50px;
+  border-radius: 4px;
+  height: 2-px;
+  font-size: 20px;
+}
+form .inputs input:nth-child(1) {
+  position: relative;
+  right: 13rem;
+}
+form .inputs input:nth-child(2) {
+  position: relative;
+  left: 5rem;
+  top: -3.9rem;
+}
+form .inputs input:nth-child(3) {
+  position: relative;
+  left: 5rem;
+  top: -3.9rem;
+}
+form .inputs input:nth-child(4) {
+  position: relative;
+  right: 13rem;
+  top: -7.9rem;
+}
+form .inputs input:nth-child(5) {
+  position: relative;
+  right: 13rem;
+  top: -6.9rem;
+}
+form .inputs input:nth-child(6) {
+  position: relative;
+  left: 5rem;
+  top: -10.9rem;
+}
+
+form .inputs textarea {
+  background: white;
+  position: relative;
+  top: -10rem;
+  right: 5em;
+  color: black;
+  width: 100%;
+}
+form h2 {
+  color: white;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  position: relative;
+  top: 0rem;
+  left: 16rem;
+  height: 2px;
+}
+form button {
+  position: relative;
+  top: 25rem;
+  right: 0rem;
+  height: 2.5rem;
+  align-items: center;
+  justify-content: center;
+}
+form button:hover {
+  border: 2px solid aqua;
+  background: aqua;
+  color: black;
+}
+@media (max-width: 320px) {
+  .contact-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    top: 5rem;
+    left: 0rem;
+  }
+  form .inputs input:nth-child(1) {
+    position: relative;
+    right: 2.5rem;
+    top: -2rem;
+  }
+  form .inputs input:nth-child(2) {
+    position: relative;
+    left: -2.5rem;
+    top: -3rem;
+  }
+  form .inputs input:nth-child(3) {
+    position: relative;
+    left: -2.5rem;
+    top: -3.9rem;
+  }
+  form .inputs input:nth-child(4) {
+    position: relative;
+    right: 2.5rem;
+    top: -5rem;
+  }
+  form .inputs input:nth-child(5) {
+    position: relative;
+    right: 2.5rem;
+    top: -6rem;
+  }
+  form .inputs input:nth-child(6) {
+    position: relative;
+    left: -2.5rem;
+    top: -7rem;
+  }
+
+  form .inputs textarea {
+    background: white;
+    position: relative;
+    top: -7rem;
+    right: 3.5em;
+    color: black;
+    width: 100%;
+  }
+  form h2 {
+    color: white;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    position: relative;
+    top: 0rem;
+    left: 5rem;
+    height: 2px;
+  }
+  form button {
+    position: relative;
+    top: -2rem;
+    right: -5rem;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  form .inputs input {
+    display: flex;
+    width: 80%;
+    padding: 4px 20px;
+    color: black;
+    background: white;
+    outline: none;
+    border: 50px;
+    border-radius: 4px;
+    height: 20px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 375px) {
+  .contact-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    top: 5rem;
+    left: 0rem;
+  }
+  form .inputs input:nth-child(1) {
+    position: relative;
+    right: 0rem;
+    top: -2rem;
+  }
+  form .inputs input:nth-child(2) {
+    position: relative;
+    left: 0rem;
+    top: -3rem;
+  }
+  form .inputs input:nth-child(3) {
+    position: relative;
+    left: 0rem;
+    top: -3.9rem;
+  }
+  form .inputs input:nth-child(4) {
+    position: relative;
+    right: 0rem;
+    top: -5rem;
+  }
+  form .inputs input:nth-child(5) {
+    position: relative;
+    right: 0rem;
+    top: -6rem;
+  }
+  form .inputs input:nth-child(6) {
+    position: relative;
+    left: 0rem;
+    top: -7rem;
+  }
+
+  form .inputs textarea {
+    background: white;
+    position: relative;
+    top: -7rem;
+    right: 1em;
+    color: black;
+    width: 100%;
+  }
+  form h2 {
+    color: white;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    position: relative;
+    top: 0rem;
+    left: 5rem;
+    height: 2px;
+  }
+  form button {
+    position: relative;
+    top: -2rem;
+    right: -7rem;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  form .inputs input {
+    display: flex;
+    width: 80%;
+    padding: 4px 20px;
+    color: black;
+    background: white;
+    outline: none;
+    border: 50px;
+    border-radius: 4px;
+    height: 20px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 425px) {
+  .contact-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    top: 5rem;
+    left: 0rem;
+  }
+  form .inputs input:nth-child(1) {
+    position: relative;
+    right: -1rem;
+    top: -2rem;
+  }
+  form .inputs input:nth-child(2) {
+    position: relative;
+    left: 1rem;
+    top: -3rem;
+  }
+  form .inputs input:nth-child(3) {
+    position: relative;
+    left: 01rem;
+    top: -3.9rem;
+  }
+  form .inputs input:nth-child(4) {
+    position: relative;
+    right: -1rem;
+    top: -5rem;
+  }
+  form .inputs input:nth-child(5) {
+    position: relative;
+    right: -1rem;
+    top: -6rem;
+  }
+  form .inputs input:nth-child(6) {
+    position: relative;
+    left: 1rem;
+    top: -7rem;
+  }
+
+  form .inputs textarea {
+    background: white;
+    position: relative;
+    top: -7rem;
+    right: -1em;
+    color: black;
+    width: 100%;
+  }
+  form h2 {
+    color: white;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    position: relative;
+    top: 0rem;
+    left: 5rem;
+    height: 2px;
+  }
+  form button {
+    position: relative;
+    top: -2rem;
+    right: -7rem;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  form .inputs input {
+    display: flex;
+    width: 90%;
+    padding: 4px 20px;
+    color: black;
+    background: white;
+    outline: none;
+    border: 50px;
+    border-radius: 4px;
+    height: 20px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .contact-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    top: 4rem;
+    left: 3rem;
+    overflow: hidden;
+    height: 85%;
+  }
+  form {
+    width: 100%;
+    display: flex;
+    top: 0rem;
+    right: 0rem;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: rgba(
+      103,
+      100,
+      100,
+      0.212
+    ); /* Semi-transparent background */
+    backdrop-filter: blur(5px);
+    border: 2px solid white;
+  }
+  form .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem 2rem;
+    position: relative;
+    top: 4rem;
+    left: 4rem;
+  }
+  form .inputs input {
+    display: flex;
+    width: 60%;
+    padding: 4px 20px;
+    color: black;
+    background: white;
+    outline: none;
+    border: 50px;
+    border-radius: 4px;
+    height: 2-px;
+    font-size: 20px;
+  }
+  form .inputs input:nth-child(1) {
+    position: relative;
+    right: 13rem;
+    top: 0rem;
+  }
+  form .inputs input:nth-child(2) {
+    position: relative;
+    left: 5rem;
+    top: -3.9rem;
+  }
+  form .inputs input:nth-child(3) {
+    position: relative;
+    left: 5rem;
+    top: -3.9rem;
+  }
+  form .inputs input:nth-child(4) {
+    position: relative;
+    right: 13rem;
+    top: -7.9rem;
+  }
+  form .inputs input:nth-child(5) {
+    position: relative;
+    right: 13rem;
+    top: -6.9rem;
+  }
+  form .inputs input:nth-child(6) {
+    position: relative;
+    left: 5rem;
+    top: -10.9rem;
+  }
+  form h2 {
+    color: white;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    position: relative;
+    top: 0rem;
+    left: 16rem;
+    height: 2px;
+  }
+  form button {
+    position: relative;
+    top: 23rem;
+    right: 15rem;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  form .inputs input {
+    width: 80%;
+  }
+  form .inputs textarea {
+    background: white;
+    position: relative;
+    top: -11rem;
+    right: 5em;
+    color: black;
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .contact-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    top: 4rem;
+    left: 17rem;
+    overflow: hidden;
+    height: 85%;
+  }
+  form {
+    width: 100%;
+    display: flex;
+    top: 0rem;
+    right: 0rem;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: rgba(
+      103,
+      100,
+      100,
+      0.212
+    ); /* Semi-transparent background */
+    backdrop-filter: blur(5px);
+    border: 2px solid white;
+  }
+  form span {
+    color: white;
+    position: absolute;
+    top: 26rem;
+    left: 10rem;
+  }
+  form .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem 2rem;
+    position: relative;
+    top: 4rem;
+    left: 4rem;
+  }
+  form .inputs input {
+    display: flex;
+    width: 60%;
+    padding: 4px 20px;
+    color: black;
+    background: white;
+    outline: none;
+    border: 50px;
+    border-radius: 4px;
+    height: 2-px;
+    font-size: 20px;
+  }
+  form .inputs input:nth-child(1) {
+    position: relative;
+    right: 13rem;
+    top: 0rem;
+  }
+  form .inputs input:nth-child(2) {
+    position: relative;
+    left: 5rem;
+    top: -3.9rem;
+  }
+  form .inputs input:nth-child(3) {
+    position: relative;
+    left: 5rem;
+    top: -3.9rem;
+  }
+  form .inputs input:nth-child(4) {
+    position: relative;
+    right: 13rem;
+    top: -7.9rem;
+  }
+  form .inputs input:nth-child(5) {
+    position: relative;
+    right: 13rem;
+    top: -6.9rem;
+  }
+  form .inputs input:nth-child(6) {
+    position: relative;
+    left: 5rem;
+    top: -10.9rem;
+  }
+  form h2 {
+    color: white;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    position: relative;
+    top: 0rem;
+    left: 16rem;
+    height: 2px;
+  }
+  form button {
+    position: relative;
+    top: 23rem;
+    right: 15rem;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  form .inputs input {
+    width: 80%;
+  }
+  form .inputs textarea {
+    background: white;
+    position: relative;
+    top: -11rem;
+    right: 5em;
+    color: black;
+    width: 100%;
+  }
+}

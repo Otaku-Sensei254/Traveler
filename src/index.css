@@ -1,0 +1,112 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgb(12, 11, 11);
+  /* animation: slide 20s infinite ease;*/
+  background-repeat: no-repeat;
+  background: #041e42;
+  background-size: cover;
+  font-synthesis: none;
+  /*background-image: url(https://shorturl.at/FYsMQ);*/
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url(https://shorturl.at/FYsMQ);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+text {
+  color: white;
+}
+p {
+  color: white;
+}
+button {
+  display: flex;
+  padding: 9px 10px;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 30px;
+  border: 2px solid white;
+  background: transparent;
+  columns: white;
+  gap: 10px;
+  font-size: 25px;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+@keyframes slide {
+  0% {
+    background-image: url(https://shorturl.at/6iqJa);
+  }
+  25% {
+    background-image: url(https://shorturl.at/FYsMQ);
+  }
+  50% {
+    background-image: url(https://shorturl.at/nhJ9I);
+  }
+  75% {
+    background-image: url(https://shorturl.at/AoPFT);
+  }
+  100% {
+    background-image: url(https://shorturl.at/akNKN);
+  }
+}
+@media (max-width: 320px) {
+  body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url(https://shorturl.at/FYsMQ);
+    background-size: cover;
+  }
+  :root {
+    max-width: 320px;
+  }
+}
