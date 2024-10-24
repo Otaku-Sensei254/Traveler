@@ -4,7 +4,6 @@ import '../Styles/About.css'
 import Slider from "react-slick";
 import { useRef } from 'react'
 import Testimonials from '../Testimonies/Testimonials'
-// import Card from '../Testimonies/card'
 import testimonies from '../Testimonies/Testimonials'
 const About = () => {
   const settings = {
