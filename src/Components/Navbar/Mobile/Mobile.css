@@ -72,6 +72,44 @@
     position: relative;
   }
 }
+@media (min-width: 360px) {
+  .tap-me-menu {
+    display: block;
+    position: relative;
+    left: 8rem;
+    top: 0rem;
+  }
+  .menu-class {
+    animation: 3s Slide ease-in-out;
+    display: flex;
+    position: absolute;
+    left: -11rem;
+    top: 3.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-class ul {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .menu-class ul li {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 23rem;
+    text-align: center;
+    width: 100%;
+  }
+  .menu-class ul li a {
+    right: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+}
 @media (min-width: 375px) {
   .tap-me-menu {
     display: block;

@@ -152,6 +152,64 @@
     height: 230px;
   }
 }
+@media (min-width: 360px) {
+  .home-box {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+  }
+  .home-stuff {
+    position: absolute;
+    top: 9rem;
+  }
+  .home-stuff h1 {
+    display: flex;
+    font-size: 30px;
+    top: -4rem;
+    right: 0rem;
+  }
+  .home-stuff text {
+    position: relative;
+    right: 0rem;
+    top: 19rem;
+    font-size: 25px;
+    width: 300px;
+  }
+  .buttons {
+    position: absolute;
+    left: 5rem;
+    display: flex;
+    gap: 1rem 2rem;
+    top: 48rem;
+
+    flex-direction: column;
+  }
+  .buttons a {
+    position: relative;
+    color: red;
+    display: flex;
+    width: 190px;
+    top: 0rem;
+    right: 0rem;
+  }
+  .ex {
+    display: flex;
+    width: 200px;
+    font-size: 22px;
+  }
+  .left {
+    position: absolute;
+    left: 2rem;
+    top: 12rem;
+  }
+  .left-img {
+    position: relative;
+    left: 2rem;
+    width: 230px;
+    top: 0rem;
+    height: 230px;
+  }
+}
 @media (min-width: 375px) {
   .home-box {
     display: flex;
