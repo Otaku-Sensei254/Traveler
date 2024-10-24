@@ -89,6 +89,12 @@
     height: 280px;
   }
 }
+@media (min-height: 668px) {
+  .photo-grid {
+    position: absolute;
+    top: 45rem;
+  }
+}
 @media (min-width: 768px) {
   .h1G {
     position: absolute;
@@ -102,6 +108,16 @@
     grid-template-columns: repeat(2, 1fr);
     flex-wrap: wrap;
     top: 40rem;
+  }
+  .photo-grid .picha img {
+    width: 350px;
+    height: 250px;
+  }
+}
+@media (min-height: 844px) {
+  .photo-grid {
+    position: absolute;
+    top: 54rem;
   }
   .photo-grid .picha img {
     width: 350px;
