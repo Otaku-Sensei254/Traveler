@@ -172,6 +172,8 @@
   .about-left {
     z-index: 1;
     position: absolute;
+    right: -3em;
+    top: 4rem;
     display: flex;
     flex-direction: column;
   }
@@ -199,18 +201,19 @@
   }
   .bottom-stuff {
     position: relative;
-    top: 8rem;
+    top: 37rem;
+    left: -1rem;
   }
   .bottom-stuff h1 {
     font-size: 24px;
     font-weight: 800;
     position: relative;
-    top: 2rem;
-    left: 0;
+    top: 3rem;
+    left: 1rem;
   }
   .slide-show {
     position: absolute;
-    left: 1rem;
+    left: 0rem;
   }
   .slider {
     position: relative;
@@ -502,18 +505,18 @@
   .bottom-stuff {
     position: relative;
     top: 14rem;
-    right: 20rem;
+    right: 0rem;
   }
   .bottom-stuff h1 {
     position: relative;
-    left: 20rem;
+    left: 2rem;
     top: 4rem;
     width: 450px;
     font-size: 30px;
   }
   .slide-show {
     position: absolute;
-    left: 2rem;
+    left: -18rem;
     display: grid;
     gap: 2rem 3rem;
     grid-template-columns: repeat(3, 1fr);
