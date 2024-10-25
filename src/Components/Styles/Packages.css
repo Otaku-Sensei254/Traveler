@@ -42,7 +42,7 @@ section h3 {
 }
 .Silver {
   position: relative;
-  right: 3rem;
+  right: 1rem;
 }
 .Silver-box {
   display: grid;
@@ -51,7 +51,7 @@ section h3 {
 }
 .Gold {
   position: relative;
-  right: 3rem;
+  right: 1rem;
 }
 .Gold-box {
   display: grid;
