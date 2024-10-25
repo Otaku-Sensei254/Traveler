@@ -40,7 +40,7 @@ const Book = () => {
             <input type="number" name="Number of people"placeholder='People(s)' required/>
             <input type="email" name="email"placeholder='enter your email' required/>
             <input type="location" name="Location"placeholder='enter your Location' required/>    
-            <input type="date" name="Date"/>
+            <input type="date" name="Date" placeholder='date?'/>
             <textarea rows={6} placeholder='Write your message........'></textarea>
             </div>
             <button type="submit">Book Now<FaBookOpen/></button>
