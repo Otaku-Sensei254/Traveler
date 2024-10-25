@@ -368,6 +368,7 @@
     position: relative;
     right: 0rem;
     top: -3rem;
+    color: red;
   }
   .top-stuff {
     position: absolute;
@@ -376,7 +377,7 @@
   }
   .about-left {
     position: relative;
-    top: 17rem;
+    top: 21rem;
     display: flex;
     flex-direction: column;
   }
