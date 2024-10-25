@@ -346,7 +346,68 @@
     height: 330px;
   }
 }
-
+@media (min-width: 381px) {
+  .About h1 {
+    position: relative;
+    right: 0rem;
+    top: -3rem;
+  }
+  .top-stuff {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-left {
+    z-index: 1;
+    position: relative;
+    top: 4rem;
+    left: -32px;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-left h2 {
+    position: relative;
+    left: 1rem;
+    top: -6rem;
+  }
+  .about-left img {
+    position: relative;
+    top: -7rem;
+    width: 310px;
+    height: 310px;
+  }
+  .about-left h3 {
+    position: relative;
+    top: -6rem;
+    left: 0rem;
+  }
+  .about-left p {
+    position: relative;
+    top: -7rem;
+    left: 0.5rem;
+    font-size: 16px;
+  }
+  .bottom-stuff {
+    position: relative;
+    top: 8rem;
+  }
+  .bottom-stuff h1 {
+    font-size: 24px;
+    font-weight: 800;
+    position: relative;
+    top: 2rem;
+    left: 0;
+  }
+  .slide-show {
+    position: absolute;
+    left: 1rem;
+  }
+  .slider {
+    position: relative;
+    width: 250px;
+    height: 330px;
+  }
+}
 @media (min-width: 430px) {
   .About h1 {
     position: relative;
