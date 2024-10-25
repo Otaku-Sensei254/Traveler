@@ -124,6 +124,24 @@
     height: 250px;
   }
 }
+@media (min-height: 915px) {
+  .photo-grid {
+    position: absolute;
+    top: 60rem;
+    left: 2rem;
+  }
+}
+@media (min-height: 932px) {
+  .photo-grid {
+    position: absolute;
+    top: 60rem;
+    left: 2rem;
+  }
+  .photo-grid .picha img {
+    width: 350px;
+    height: 250px;
+  }
+}
 @media (min-width: 1024px) {
   .h1G {
     position: absolute;
