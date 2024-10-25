@@ -350,6 +350,20 @@
     top: 10rem;
   }
 }
+@media (min-height: 740px) {
+  .about-left {
+    position: absolute;
+  }
+  .about-left p {
+    color: red;
+    position: relative;
+    top: -7rem;
+  }
+  .bottom-stuff {
+    position: relative;
+    top: 45rem;
+  }
+}
 @media (min-height: 844px) {
   .About h1 {
     position: relative;
