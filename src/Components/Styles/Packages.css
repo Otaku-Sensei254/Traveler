@@ -113,6 +113,63 @@ section h3 {
     right: -2rem;
   }
 }
+@media (min-width: 344px) {
+  .tour {
+    position: absolute;
+    left: 0;
+  }
+  .tour h1 {
+    position: relative;
+    top: -5rem;
+  }
+  .tour h1:nth-child(2) {
+    position: relative;
+    top: 12rem;
+  }
+  .tour text {
+    position: relative;
+    top: 10rem;
+    font-weight: 400;
+  }
+  .pack-grid {
+    position: absolute;
+    top: 58rem;
+    left: 5rem;
+  }
+  .Bronze-box {
+    position: relative;
+    right: 0rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem 5rem;
+  }
+  .Bronze h3 {
+    position: relative;
+    right: rem;
+  }
+  .Silver-box {
+    position: relative;
+    left: 3rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem 5rem;
+  }
+  .Silver h3 {
+    position: relative;
+    right: 0rem;
+  }
+  .Gold-box {
+    position: relative;
+    left: 3rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem 5rem;
+  }
+  .Gold h3 {
+    position: relative;
+    right: 0rem;
+  }
+}
 @media (min-width: 360px) {
   .tour {
     position: absolute;
