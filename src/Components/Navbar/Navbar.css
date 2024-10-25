@@ -82,6 +82,28 @@
     font-size: 2.4rem;
   }
 }
+@media (min-width: 344px) {
+  .nav-container nav li a {
+    display: none;
+  }
+  .nav-container {
+    height: 50px;
+  }
+  .mobile-menu {
+    display: block;
+    border-radius: 20%;
+    padding: 2px 3px;
+    position: relative;
+    left: 8rem;
+  }
+  .mobileh1 {
+    position: absolute;
+    display: block;
+    left: -10rem;
+    margin-top: 4rem;
+    font-size: 2.4rem;
+  }
+}
 @media (min-width: 360px) {
   .nav-container nav li a {
     display: none;
