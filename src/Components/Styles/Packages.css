@@ -133,7 +133,7 @@ section h3 {
   }
   .pack-grid {
     position: absolute;
-    top: 55rem;
+    top: 58rem;
     left: 4rem;
   }
   .Bronze-box {
@@ -243,16 +243,16 @@ section h3 {
   }
   .tour h1:nth-child(2) {
     position: relative;
-    top: 13rem;
+    top: 18rem;
   }
   .tour text {
     position: relative;
-    top: 11rem;
+    top: 16rem;
     font-weight: 400;
   }
   .pack-grid {
     position: absolute;
-    top: 55rem;
+    top: 62rem;
   }
   .Bronze-box {
     position: relative;
@@ -263,29 +263,29 @@ section h3 {
   }
   .Bronze h3 {
     position: relative;
-    right: -2rem;
+    right: 0rem;
   }
   .Silver-box {
     position: relative;
-    right: -2rem;
+    right: 0rem;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 2rem 5rem;
   }
   .Silver h3 {
     position: relative;
-    right: -2rem;
+    right: 0rem;
   }
   .Gold-box {
     position: relative;
-    right: -2rem;
+    right: 0rem;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 2rem 5rem;
   }
   .Gold h3 {
     position: relative;
-    right: -2rem;
+    right: 0rem;
   }
 }
 @media (min-width: 768px) {
