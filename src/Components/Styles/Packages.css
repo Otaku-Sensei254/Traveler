@@ -33,7 +33,7 @@ section h3 {
 .Bronze {
   position: relative;
   top: -1rem;
-  right: 3rem;
+  right: 1rem;
 }
 .Bronze-box {
   display: grid;
@@ -51,7 +51,7 @@ section h3 {
 }
 .Gold {
   position: relative;
-  right: 1rem;
+  right: 3rem;
 }
 .Gold-box {
   display: grid;
@@ -81,7 +81,7 @@ section h3 {
   }
   .Bronze-box {
     position: relative;
-    left: 2rem;
+    left: 0.5rem;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 3rem 5rem;
@@ -92,7 +92,7 @@ section h3 {
   }
   .Silver-box {
     position: relative;
-    right: -2rem;
+    left: 0.5rem;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 2rem 5rem;
@@ -103,14 +103,14 @@ section h3 {
   }
   .Gold-box {
     position: relative;
-    right: -2rem;
+    left: 2.5rem;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 2rem 5rem;
   }
   .Gold h3 {
     position: relative;
-    right: -2rem;
+    left: 2rem;
   }
 }
 @media (min-width: 344px) {
