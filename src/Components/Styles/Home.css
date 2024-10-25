@@ -152,6 +152,7 @@
     height: 230px;
   }
 }
+
 @media (min-width: 344px) {
   .home-box {
     display: flex;
