@@ -39,7 +39,7 @@ const Book = () => {
             <input type="number" name="Phone Number"placeholder='enter your phone number' required/>
             <input type="number" name="Number of people"placeholder='People(s)' required/>
             <input type="email" name="email"placeholder='enter your email' required/>
-            <input type="location" name="Location"placeholder='enter your Location' required/>    
+            <input type="location" name="Location"placeholder='enter your destination' required/>    
             <input type="date" name="Date" placeholder='date?'/>
             <textarea name="message"rows={6} placeholder='Write your message........'></textarea>
             </div>
