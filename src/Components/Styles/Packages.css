@@ -414,16 +414,16 @@ section h3 {
   }
   .tour h1:nth-child(2) {
     position: relative;
-    top: 24rem;
+    top: 27rem;
   }
   .tour text {
     position: relative;
-    top: 22rem;
+    top: 25rem;
     font-weight: 400;
   }
   .pack-grid {
     position: absolute;
-    top: 68rem;
+    top: 72rem;
     width: 50%;
   }
   .Bronze-box {
