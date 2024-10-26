@@ -191,7 +191,7 @@ section h3 {
   .pack-grid {
     position: absolute;
     top: 58rem;
-    left: 4rem;
+    left: 2rem;
   }
   .Bronze-box {
     position: relative;
@@ -206,7 +206,7 @@ section h3 {
   }
   .Silver-box {
     position: relative;
-    right: 0rem;
+    left: 0rem;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 2rem 5rem;
@@ -217,7 +217,7 @@ section h3 {
   }
   .Gold-box {
     position: relative;
-    right: 0rem;
+    left: 2rem;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 2rem 5rem;
